@@ -1,0 +1,245 @@
+body{
+    font-family: Arial, sans-serif; 
+    font-size:15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+   }
+   
+  /*global*/
+   .container {
+    width: 80%;
+   margin:auto;
+   overflow:hidden; 
+   }
+   
+   ul{
+    margin:0;
+    padding:0;
+   }
+   
+   .button_1{
+   height:38px;
+   background: #f4f4f4;
+   border: 0;
+   padding-left:20px;
+   padding-right:20px;
+   color: #003366;
+   }
+   
+/*header*/
+   header{
+    background: #003366;
+    color:#FFFFFF;
+    padding-top:30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+   }
+   
+   header a{
+    color: #FFFFFF;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:16px;
+   }
+   
+   header li{
+    float: left;
+    display:inline;
+    padding: 0 20px 0 20px;
+   }
+   
+   header #branding{
+   float:left;
+   }
+   
+   header #branding h1{
+   margin: 0;
+   }
+   
+   header nav{
+    float: right;
+    margin-top:10px;
+    }
+    
+    header .highlight, header .current a{
+     color: #cccccc;
+     font-weight: bold;
+    }
+    
+    header a:hover{
+     color; #cccccc;
+     font-weight:bold;
+    }
+    
+/*showcase*/
+    #showcase {
+    min-height: 400px;
+    /*look over this*/
+    background: url('resume.jpeg') no-repeat 0 -400px;
+    text-align: center;
+    }
+    
+    #showcase h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+    }
+    
+    #showcase p{
+    font-size:20px;
+    }
+   
+   /*newsletter*/
+     #newsletter{
+     padding: 15px;
+     color: #FFFFFF;
+     background: #003366
+    }
+    
+    #newsletter h1{
+     float:left;
+    }
+    
+    #newsletter form{
+    float:right;
+    margin-top: 15px;
+    }
+    
+    #newsletter input [type="email"]{
+    padding: 4px;
+    height 25px;
+    width:250px;
+    }
+    
+    /*boxes*/
+    #boxes{
+    margin-top:20px;
+    }
+    
+    #boxes .box {
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:10px;
+    }
+    
+    #boxes .box img{
+    width: 150px;
+    }
+   
+  footer {
+   background: #003366;
+   color: #FFFFFF;
+   text-align: center;
+   padding: 20px 0; 
+   border-top: 3px solid #e8491d;
+   margin-top: 20px; 
+   }
+
+   .contact-section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .contact-info {
+    text-align: left;
+}
+
+  .contact-section h2 {
+    color: #003366;
+  }
+
+  .contact-section input[type="text"],
+  .contact-section input[type="email"],
+  .contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .contact-section input[type="submit"] {
+    background-color: #e8491d;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .contact-section input[type="submit"]:hover {
+    background-color: #0055a5;
+}
+
+  .contact-section p {
+    text-align: left;
+}
+
+.resume-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.general-info h1, .professional-experience h1, .personal-statement h1 {
+    margin: 0;
+    color: #2a3f54;
+    font-size: 28px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #d3d3d3;
+}
+
+.name-section, .contact-section, .job-section {
+    border: 1px solid #d3d3d3; 
+    padding: 15px; 
+    border-radius: 8px; 
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+}
+
+
+.form1 input, .experience-form input, .job-section textarea, .statement-form textarea {
+    margin: 10px 0;
+    color: #4a4a4a;
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    width: 95%;
+}
+
+.form2 .inline-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.form2 input {
+    flex: 1;
+    margin: 0 10px;
+    color: #4a4a4a;
+    padding: 4px;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+}
+
+.professional-experience {
+    margin-top: 30px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.contact-section input[type="text"],
+.name-section input[type="text"],
+.professional-experience input[type="text"],
+.contact-section input[type="email"],
+.contact-section textarea[id="message"] {
+    width: 95%; 
+}
